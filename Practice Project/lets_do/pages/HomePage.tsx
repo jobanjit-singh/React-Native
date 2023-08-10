@@ -7,7 +7,6 @@ import {
   View,
   useColorScheme,
 } from 'react-native';
-import {Colors} from 'react-native/Libraries/NewAppScreen';
 import {EmptyData} from '../assets/images';
 
 const HomePage = (props: any) => {
@@ -55,6 +54,7 @@ const styles = StyleSheet.create({
   headingText: {
     fontSize: 40,
     width: '90%',
+    textAlignVertical: 'center',
   },
 
   buttonBack: {

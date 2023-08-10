@@ -36,6 +36,7 @@ const AddNote = () => {
           placeholder="Enter Note"
           placeholderTextColor={'#000'}
           onChangeText={text => setNote(text)}
+          multiline={true}
         />
       </View>
 
